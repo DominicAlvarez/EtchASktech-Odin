@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     whiteGradient.addColorStop(0.5, "rgba(0, 0, 0, 0)");
     whiteGradient.addColorStop(1, "rgba(0, 0, 0, 1)");
     ctx.fillStyle = whiteGradient;
-    ctx.fillRect(0, 0, colorPicker.width, colorPickerC.height);
+    ctx.fillRect(0, 0, colorPicker.width, colorPicker.height);
   }
 
   function handleMouseDraw(event) {
